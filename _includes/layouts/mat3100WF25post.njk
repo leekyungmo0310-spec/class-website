@@ -1,0 +1,14 @@
+---
+layout: layouts/mat3100WF25.njk
+---
+<style>{% include "node_modules/prismjs/themes/prism-okaidia.css" %}</style>
+<style>{% include "css/prism-diff.css" %}</style>
+<h1>{{ title }}</h1>
+
+<ul class="post-metadata">
+	<li>Due on {{ page.date | readableDate }} at 8PM on <a href="https://www.gradescope.com/courses/1098227">Gradescope</a>.</li>
+</ul>
+
+<p><i>This assignment is worth 20 points. My goal is for you to spend ≤6 minutes per point on average. If you find yourself spending more than \(6n\) minutes on a \(n\)-point problem, reach out to me via drop-in hours, Discord, or email.</i></p>
+
+{{ content | safe }}

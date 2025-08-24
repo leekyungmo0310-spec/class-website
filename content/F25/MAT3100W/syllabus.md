@@ -14,7 +14,7 @@ layout: layouts/mat3100WF25.njk
   <li>Monday, August 25th&ndash;Wednesday, December 3rd</li>
   <li>11:00 AM&ndash;12:50 PM</li>
   <li>Building 8, Room 250</li>
-  <li><a href="https://discord.com/channels/1329209051501822074">Discord server</a> (<a href="https://discord.gg/K9UdU8ktEM">Invitation</a>)</li>
+  <li><a href="https://discord.com/channels/1408914685499281490">Discord server</a> (<a href="https://discord.gg/GG5HxsSsAm">Invitation</a>)</li>
 </ul>
 
 <h3>Instructor information</h3>

@@ -4,8 +4,14 @@ const eleventyNavigation = {
 	order: 20
 };
 ---
-<h1>Fall 2025 Classes</h1>
-<ul>
-  <li><a href="/mat3100WF25/">MAT 3100W</a></li>
-  <li><a href="/mat4111AF25/">MAT 4111A</a></li>
-</ul>
+# Fall 2025 Classes
+  - [MAT 3100W](/F25/MAT3100W/): Intro to Mathematical Proof
+  - [MAT 4111A](/F25/MAT4111A/): Putnam Preparation
+
+----
+# Previous classes
+### Spring 2025 Classes
+  - MAT 4180
+
+### Fall 2024 Classes
+  - MAT 4170

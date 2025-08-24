@@ -2,9 +2,10 @@
 layout: layouts/mat3100WF25.njk
 ---
 
-# MAT 3100W (Fall 2025)
+<h1 style="margin:0;">MAT 3100W</h1>
+<h4 style="margin:0;">Introduction to Mathematical Proof</h4>
 
-<a href="/mat3100WF25/syllabus/">Syllabus</a>
+<a href="/F25/MAT3100W/syllabus/">Syllabus</a>
 
 ## Assignments list
 <ul>

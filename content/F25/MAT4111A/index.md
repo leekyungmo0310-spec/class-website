@@ -2,9 +2,11 @@
 layout: layouts/mat4111AF25.njk
 ---
 
-# MAT 4111A (Fall 2025)
+<h1 style="margin:0;">MAT 4111A</h1>
+<h4 style="margin:0;">Putnam Preparation</h4>
 
-<a href="/mat4111AF25/syllabus/">Syllabus</a>
+
+<a href="/F25/MAT4111A/syllabus/">Syllabus</a>
 
 ## Assignments list
 <ul>

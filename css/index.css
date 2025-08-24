@@ -219,6 +219,16 @@ code {
 	word-break: break-all;
 }
 
+.inline-img {
+  display: inline;
+  vertical-align: middle;  /* aligns nicely with text */
+	max-height: 1.5em;
+	width: auto;
+  margin: 0 0.25em;        /* small space around image */
+  border: 1px solid #ccc;  /* optional, makes it look “boxed” */
+  border-radius: 4px;      /* optional rounded corners */
+}
+
 /* Header */
 header {
 	display: flex;

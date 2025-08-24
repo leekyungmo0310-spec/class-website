@@ -5,6 +5,7 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
+import markdownItFootnote from "markdown-it-footnote";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -25,7 +26,9 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy({
 			"./public/": "/"
 		})
-		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
+		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
+		.addPassthroughCopy("content/**/*.tex");
+
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
@@ -118,6 +121,10 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();
 	});
+
+	eleventyConfig.amendLibrary("md", mdLib => {
+  	mdLib.use(markdownItFootnote);
+	})
 
 	// Features to make your build faster (when you need them)
 
