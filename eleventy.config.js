@@ -6,6 +6,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
 import markdownItFootnote from "markdown-it-footnote";
+import markdownIt from "markdown-it";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -20,6 +21,12 @@ export default async function(eleventyConfig) {
 		}
 	});
 
+  const mdLib = markdownIt({ html: true });
+  eleventyConfig.setLibrary("md", mdLib);
+
+	eleventyConfig.addPairedShortcode("md", (content) => {
+    return mdLib.render(content);
+  });
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig
