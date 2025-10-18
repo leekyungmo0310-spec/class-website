@@ -348,7 +348,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Functions<br>
       Injections (1-to-1), surjections (onto), and bijections.<br>
-      <span class="due">HW07 due on Thursday, 10/23 at 8PM.</span>
+      <span class="due">HW07 due on Friday, 10/24 at 8PM.</span>
     </td>
   </tr>
   <tr>
