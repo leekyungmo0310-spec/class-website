@@ -1,7 +1,7 @@
 ---
 title: Notes as Cosets: A Guide to the Octave Quotient Group
 author: Brandon Chong
-date: 2026/5/1
+date: 2026-5-1
 type: blog
 courseNumber: MAT4170
 term: S26
